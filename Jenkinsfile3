@@ -8,9 +8,8 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'nanducjc123/educationapprepo'
-
-        SONAR_HOST = 'http://13.206.247.4:9000'
+        DOCKER_IMAGE = 'srushhp/educationwebapp_devops_project'
+        SONAR_HOST = 'http://13.233.247.21:9000'
         SONAR_PROJECT_KEY = 'my-project'
 
         AWS_REGION = 'ap-south-1'
