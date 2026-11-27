@@ -27,7 +27,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/cjcnkolhe/devops_educationapp.git'
+                    url: 'https://github.com/Srushtigit09/devops_educationapp_master.git'
             }
         }
 
